@@ -10,10 +10,11 @@
 <body>
     <header>
         <div class="nav-div">
-           <a href="../index.html"><img class="main-logo" src="../img/logo-brije.png" alt=""></a> 
+           <a href="../index.html"><img class="main-logo main-logo-fullsize" src="../img/logo-brije.png" alt=""></a> 
+           <a href="./index.html"> <img class="main-logo main-logo-mobile" src="../img/logo.png" alt=""></a>
         </div>
-        <nav>
-            <ul>
+        <nav class="nav-container">
+            <ul class="nav-bar">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./menu.html">Menú</a></li>
                 <li><a href="./reservas.html">Reservas</a></li>
@@ -22,35 +23,38 @@
             </ul>
         </nav>
     </header>
-    <main class="main-menu">
-       <section class="menu">
-        <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/dae09d17-fa95-4530-92bb-c8d791d4a6e3/Brije_123.jpg" alt=""></a>
-        <h2>Entradas</h2>
-       </section>
-       <section class="menu">
-        <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/60c5b91e-8d3b-483c-aaf1-96a3b8f1fd27/Brije_103.jpg" alt=""></a>
-        <h2>Fuertes</h2>
-       </section>
-       <section class="menu">
-        <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/9feeea69-281e-4ee1-89ea-e576869c0417/Brije_48.jpg" alt=""></a>
-        <h2>Bebidas</h2>
-       </section>
-       <section class="menu">
-        <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/fcb4c713-1d94-4020-8e87-e8d790cbb227/Brije_93.jpg" alt=""></a>
-        <h2>Postres</h2>
-       </section>
-       <section class="menu">
-        <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/5d4957a9-1fa9-414d-8e0f-b7318ff521cd/DSC_5870.jpg" alt=""></a>
-        <h2>Brunch</h2>
-       </section>
-       <section class="menu">
-        <a href=""><img src="https://images.pexels.com/photos/4559174/pexels-photo-4559174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></a>
-        <h2>Infantil</h2>
-       </section>
+    <main>
+        <div class="main-menu">
+            <section class="menu">
+                <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/dae09d17-fa95-4530-92bb-c8d791d4a6e3/Brije_123.jpg" alt=""></a>
+                <h2>Entradas</h2>
+               </section>
+               <section class="menu">
+                <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/60c5b91e-8d3b-483c-aaf1-96a3b8f1fd27/Brije_103.jpg" alt=""></a>
+                <h2>Fuertes</h2>
+               </section>
+               <section class="menu">
+                <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/9feeea69-281e-4ee1-89ea-e576869c0417/Brije_48.jpg" alt=""></a>
+                <h2>Bebidas</h2>
+               </section>
+               <section class="menu">
+                <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/fcb4c713-1d94-4020-8e87-e8d790cbb227/Brije_93.jpg" alt=""></a>
+                <h2>Postres</h2>
+               </section>
+               <section class="menu">
+                <a href=""><img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/5d4957a9-1fa9-414d-8e0f-b7318ff521cd/DSC_5870.jpg" alt=""></a>
+                <h2>Brunch</h2>
+               </section>
+               <section class="menu">
+                <a href=""><img src="https://images.pexels.com/photos/4559174/pexels-photo-4559174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></a>
+                <h2>Infantil</h2>
+               </section>
+        </div>
+      
     </main>
     <footer>
-        <div>
-            <h4>Contacto</h4>
+        <div class="footer-contacto">
+            <h4 class="footer-tittle">Contacto</h4>
             <p>
                 <a href="https://www.google.com/maps/place/Brije+Restaurante/@6.2081171,-75.5692883,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429eea45def81:0x4f13450b763aaff6!8m2!3d6.2081118!4d-75.5670996" target="_blank">Carerra 37 #8A-15 vía Primavera
                 El Poblado, Medellín</a>
@@ -62,13 +66,13 @@
                 <a href="">+57(318) 821-8455</a>
             </h4>
         </div>
-        <div>
+        <div class="footer-logo">
             <img src="../img/logo.png" alt="">
-            <a href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/001-facebook.png" alt=""> </a>
-            <a href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt=""></a>
+            <a class="footer-social" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/001-facebook.png" alt=""> </a>
+            <a class="footer-social" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt=""></a>
         </div>
-        <div>
-            <h4>Horas</h4>
+        <div class="footer-hours">
+            <h4 class="footer-tittle">Horas</h4>
             <p>
                 Lunes- Jueves |12:00 m. - 10:30 p. m.<br>
                 Viernes | 12:00 m.  - 12:00 a. m.<br> 

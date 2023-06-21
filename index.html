@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brije-Restaurante</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="nav-div">
-           <a href="./index.html"> <img class="main-logo" src="./img/logo-brije.png" alt=""></a>
+           <a href="./index.html"> <img class="main-logo main-logo-fullsize" src="./img/logo-brije.png" alt=""></a>
+           <a href="./index.html"> <img class="main-logo main-logo-mobile" src="../img/logo.png" alt=""></a>
         </div>
-        <nav>
-            <ul>
+        <nav class="nav-container">
+            <ul class="nav-bar">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./pages/menu.html">Menú</a></li>
                 <li><a href="./pages/reservas.html">Reservas</a></li>
@@ -23,33 +27,44 @@
         </nav>
     </header>
     <main>
-       <section>
+       <section class="main-container">
         <article class="carta main-page">  
-            <a href="./pages/menu.html"> <img src="./img/menu.jpg" alt="menu"></a>
-            <h2>Nuestro Menu</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem placeat, ducimus nemo quod delectus, repellendus inventore sit voluptas beatae voluptatibus in reprehenderit saepe! Voluptatibus totam saepe laudantium architecto dicta.</p>
+            <a href="./pages/menu.html"> <img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/1648604661484-HLRMZSLRAO47ECJ4ORCR/Brije_103.jpg" alt="menu"></a>
+            <div>
+                <h2>Nuestro Menu</h2>
+                <p>Descubre nuestros platos tradicionales, desde los intensos y picantes chiles hasta las ricas y suculentas carnes marinadas, cada bocado te transportará a las vibrantes calles de México.  ¡Ven y disfruta de la verdadera cocina mexicana en cada platillo que ofrecemos en nuestro menú! </p>
+            </div>
+            
         </article>
         <article class="reservas main-page">  
-            <a href="./pages/reservas.html"> <img src="./img/reserva.jpg" alt="reservas"></a>
-            <h2>Fechas Especiales</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem placeat, ducimus nemo quod delectus, repellendus inventore sit voluptas beatae voluptatibus in reprehenderit saepe! Voluptatibus totam saepe laudantium architecto dicta.</p>
+            <a href="./pages/reservas.html"> <img src="./img/fecha-especial.jpg" alt="reservas"></a>
+            <div class="grid-reverse">
+                <h2>Fechas Especiales</h2>
+                <p>Celebra momentos especiales rodeado de auténtica comida mexicana y un ambiente festivo en nuestro restaurante. Ya sea que desees festejar con amigos o tener una cita romántica, somos el lugar perfecto. Disfruta de sabores mexicanos inigualables mientras compartes risas y creas recuerdos inolvidables. ¡Déjanos hacer de tu próxima celebración una experiencia única y llena de sabor!</p>
+            </div>
+            
         </article>
         <article class="direccion main-page">  
-            <a href="./pages/como-llegar.html"> <img src="./img/mapa.jpg" alt="Nuestra direccion"></a>
-            <h2>¿Donde estamos?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem placeat, ducimus nemo quod delectus, repellendus inventore sit voluptas beatae voluptatibus in reprehenderit saepe! Voluptatibus totam saepe laudantium architecto dicta.</p>
+            <a href="./pages/como-llegar.html"> <img src="./img/ubicacion.jpeg" alt="Nuestra direccion"></a>
+            <div>
+                <h2>¿Donde estamos?</h2>
+                <p>¡Llegar a nuestro restaurante es fácil! Estamos ubicados en un lugar accesible, para que disfrutes rápidamente de nuestros auténticos sabores mexicanos. Ven en auto, transporte público o a pie, te recibiremos con los brazos abiertos para una experiencia culinaria excepcional. ¡Descubre el sabor de México de forma rápida y sencilla en nuestro restaurante!</p>
+            </div>
+            
         </article>
         <article class="nosotros main-page">  
-            <a href="./pages/nosotros.html"> <img src="./img/restaurante.jpeg" alt="nosotros"></a>
-            <h2>¿Quienes Somos?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem placeat, ducimus nemo quod delectus, repellendus inventore sit voluptas beatae voluptatibus in reprehenderit saepe! Voluptatibus totam saepe laudantium architecto dicta.</p>
+            <a href="./pages/nosotros.html"> <img src="./img/nosotros.jpeg" alt="nosotros"></a>
+            <div class="grid-reverse">
+                <h2>¿Quienes Somos?</h2>
+                <p>Somos un apasionado equipo culinario dedicado a llevar los auténticos sabores mexicanos a tu paladar. En nuestro restaurante, combinamos la tradición y la pasión por la cocina mexicana para ofrecerte una experiencia gastronómica inigualable. Ya sea que estés buscando celebrar momentos especiales o simplemente disfrutar de una deliciosa comida, nuestro equipo está aquí para brindarte un servicio cálido y amigable. </p>
+            </div>
+            
         </article>
-
        </section>
     </main>
     <footer>
-        <div>
-            <h4>Contacto</h4>
+        <div class="footer-contacto">
+            <h4 class="footer-tittle">Contacto</h4>
             <p>
                 <a href="https://www.google.com/maps/place/Brije+Restaurante/@6.2081171,-75.5692883,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429eea45def81:0x4f13450b763aaff6!8m2!3d6.2081118!4d-75.5670996" target="_blank">Carerra 37 #8A-15 vía Primavera
                 El Poblado, Medellín</a>
@@ -61,14 +76,14 @@
                 <a href="">+57(318) 821-8455</a>
             </h4>
         </div>
-        <div>
-            <img src="./img/logo.png" alt="">
-            <a href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="./assets/001-facebook.png" alt=""> </a>
-            <a href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="./assets/002-instagram.png" alt=""></a>
+        <div class="footer-logo">
+            <img class="footer-img" src="./img/logo.png" alt="">
+            <a class="footer-social" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="./assets/001-facebook.png" alt=""> </a>
+            <a class="footer-social" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="./assets/002-instagram.png" alt=""></a>
             
         </div>
-        <div>
-            <h4>Horas</h4>
+        <div class="footer-hours">
+            <h4 class="footer-tittle">Horas</h4>
             <p>
                 Lunes- Jueves |12:00 m. - 10:30 p. m.<br>
                 Viernes | 12:00 m.  - 12:00 a. m.<br> 
