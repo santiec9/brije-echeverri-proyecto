@@ -1,4 +1,6 @@
-*{
+
+
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -11,10 +13,10 @@ html{
 
 ul, ol{
     list-style: none;
-}
+} */
 
 /* Header */
-.main-logo-fullsize{
+/* .main-logo-fullsize{
     display: none;
 }
 header{
@@ -39,9 +41,9 @@ header{
 }
 .nav-bar a:hover{
     color: #ffff;
-}
+} */
 /* Main */
-main{
+/* main{
     background-color: #E8E2E2;
 }
 .main-container{
@@ -74,9 +76,9 @@ main{
 }
 .main-page p, .main-page h2{
     text-align: center;
-}
+} */
 /* Footer */
-footer{
+/* footer{
     width: 100vw;
     background-color: hsl(176deg 83.33% 7.06%);
     display: flex;
@@ -112,10 +114,10 @@ footer{
 .footer-social{
     text-align: center;
     margin: 10px 0px;
-}
+} */
 
 /* Menu  */
-.main-menu{
+/* .main-menu{
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -133,9 +135,9 @@ footer{
     width: 50vw;
     height: 300px;
     object-fit: cover;
-}
+} */
 /* Reervas  */
-.main-reservas{
+/* .main-reservas{
     width: 90%;
     margin: 0 auto;
 }
@@ -159,9 +161,9 @@ footer{
 .main-reservas img{
     width: 50vw;
     margin: 15px;
-}
+} */
 /* Como llegar  */
-.main-llegar{
+/* .main-llegar{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -196,9 +198,9 @@ footer{
     line-height: 2rem;
     text-align: center;
     margin: 10px;
-}
+} */
 /* Nosotros */
-.main-nosotros{
+/* .main-nosotros{
     width: 90%;
     margin: 0 auto;
 }
@@ -295,7 +297,7 @@ footer{
     .main-menu img{
         width: 40vw;
     }
-}
+} */
 
 /* header{
     width: 100vw;
