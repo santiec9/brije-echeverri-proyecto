@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brije-Restaurante</title>
-    <link rel="stylesheet" href="../styles/main.css">
+    <title>Sobre nosotros - Brije</title>
+    <meta name="description" content="Descubre la historia y la pasión detrás de Brije, un restaurante mexicano en Colombia. Conoce nuestra misión, visión y nuestro compromiso de ofrecer la auténtica cocina mexicana.">
+    <meta name="keywords" content="restaurante mexicano, Brije, México, Colombia, historia, pasión, cocina mexicana">    <meta name="author" content="Brije / Thiago">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div class="nav-div">
-            <a href="../index.html"><img class="main-logo main-logo-fullsize" src="../img/logo-brije.png" alt=""></a> 
-            <a href="./index.html"> <img class="main-logo main-logo-mobile" src="../img/logo.png" alt=""></a>
+    <header class="main-nav">
+        <div class="nav__container">
+           <a href="../index.html"> <img class="nav__logo nav__logo-fullsize" src="../img/logo-brije.png" alt="Logo del restaurante Brije tamaño grande"></a>
+           <a href="../index.html"> <img class="nav__logo nav__logo-mobile" src="../img/logo.png" alt="Logo del restaurante Brije tamaño de celular"></a>
         </div>
-        <nav class="nav-container">
-            <ul class="nav-bar">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./menu.html">Menú</a></li>
-                <li><a href="./reservas.html">Reservas</a></li>
-                <li><a href="./como-llegar.html">Cómo llegar</a></li>
-                <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+        <nav class="nav__list">
+            <ul class="nav__bar">
+                <li><a class="nav__bar-item" href="../index.html">Home</a></li>
+                <li><a class="nav__bar-item" href="./menu.html">Menú</a></li>
+                <li><a class="nav__bar-item" href="./reservas.html">Reservas</a></li>
+                <li><a class="nav__bar-item" href="./como-llegar.html">Cómo llegar</a></li>
+                <li><a class="nav__bar-item active" href="./nosotros.html">Sobre Nosotros</a></li>
             </ul>
         </nav>
     </header>
@@ -27,19 +32,25 @@
         <div class="main-nosotros">
         
             <article class="text-nosotros">
-                <h1>Sobre nosotros</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat doloremque quisquam, nostrum
-                    beatae veniam assumenda atque, cupiditate enim, rem est totam voluptates numquam placeat modi quibusdam
-                    adipisci laudantium? Harum!</p>
+                <div>
+                    <h1>Sobre nosotros</h1>
+                    <p>Bienvenidos a Brije, un auténtico pedacito de México en Colombia. En nuestro restaurante, nos apasiona llevar a tu mesa los sabores vibrantes y la rica cultura gastronómica de México.
+
+                        Nuestra historia comenzó con el sueño de compartir la auténtica cocina mexicana con amigos y familias en Colombia. Con ese propósito en mente, hemos creado un espacio acogedor y lleno de encanto que te transportará directamente a las calles de México.
+                    </p>
+                </div>
+
                 <img src="https://images.pexels.com/photos/3887985/pexels-photo-3887985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="restaurante">
+                    alt="Foto del restaurante Brije">
             </article>
             <article class="text-nosotros">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat doloremque quisquam, nostrum
-                    beatae veniam assumenda atque, cupiditate enim, rem est totam voluptates numquam placeat modi quibusdam
-                    adipisci laudantium? Harum!</p>
+                <div class="text__order">
+                    <p>Nuestro menú es una verdadera oda a la diversidad de la cocina mexicana. Desde los sabores picantes y audaces de los tacos y enchiladas, hasta los suculentos guisos y los refrescantes ceviches, cada bocado te llevará en un viaje de sabores y texturas inigualables.
+                    </p>
+                </div>
+
                 <img src="https://images.pexels.com/photos/12333727/pexels-photo-12333727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="restaurante">
+                    alt="Foto de señora mexicana, representacion del sabor casero de mexico">
             </article>
         
             <form action="" class="form-nosotros">
@@ -54,8 +65,8 @@
         </div>
     </main>
     <footer>
-        <div class="footer-contacto">
-            <h4 class="footer-tittle">Contacto</h4>
+        <div class="footer__container">
+            <h4 class="footer__tittle">Contacto</h4>
             <p>
                 <a href="https://www.google.com/maps/place/Brije+Restaurante/@6.2081171,-75.5692883,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429eea45def81:0x4f13450b763aaff6!8m2!3d6.2081118!4d-75.5670996" target="_blank">Carerra 37 #8A-15 vía Primavera
                 El Poblado, Medellín</a>
@@ -67,13 +78,20 @@
                 <a href="">+57(318) 821-8455</a>
             </h4>
         </div>
-        <div class="footer-logo">
-            <img src="../img/logo.png" alt="">
-            <a class="footer-social" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/001-facebook.png" alt=""> </a>
-            <a class="footer-social" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt=""></a>
+        <div class="footer__social-media footer__container">
+            <img class="footer__logo" src="../img/logo.png" alt="Nuestro logo">
+            <div class="footer__container-logo">
+                <a class="footer__social-logo" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/facebook-logo.png" alt="Logo de Facebook"> </a>
+            </div>
+            <div class="footer__container-logo">
+                <a class="footer__social-logo" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt="Logo de Instagram"></a>
+            </div>
+
+
+            
         </div>
-        <div class="footer-hours">
-            <h4 class="footer-tittle">Horas</h4>
+        <div class="footer__hours footer__container">
+            <h4 class="footer__title">Horas</h4>
             <p>
                 Lunes- Jueves |12:00 m. - 10:30 p. m.<br>
                 Viernes | 12:00 m.  - 12:00 a. m.<br> 

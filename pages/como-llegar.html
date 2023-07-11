@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brije-Restaurante</title>
-    <link rel="stylesheet" href="../styles/main.css">
+    <title>Cómo llegar - Brije</title>
+    <meta name="description" content="Descubre cómo llegar a Brije, un restaurante mexicano en Colombia. Te proporcionamos indicaciones claras y precisas para que puedas disfrutar de nuestra deliciosa comida sin complicaciones.">
+    <meta name="keywords" content="cómo llegar, Brije, restaurante mexicano, dirección, mapa, Colombia">
+    <meta name="author" content="Brije / Thiago">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div class="nav-div">
-            <a href="../index.html"><img class="main-logo main-logo-fullsize"src="../img/logo-brije.png" alt=""></a> 
-            <a href="./index.html"> <img class="main-logo main-logo-mobile" src="../img/logo.png" alt=""></a>
+    <header class="main-nav">
+        <div class="nav__container">
+           <a href="../index.html"> <img class="nav__logo nav__logo-fullsize" src="../img/logo-brije.png" alt="Logo del restaurante Brije tamaño grande"></a>
+           <a href="../index.html"> <img class="nav__logo nav__logo-mobile" src="../img/logo.png" alt="Logo del restaurante Brije tamaño de celular"></a>
         </div>
-        <nav class="nav-container">
-            <ul class="nav-bar">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./menu.html">Menú</a></li>
-                <li><a href="./reservas.html">Reservas</a></li>
-                <li><a href="./como-llegar.html">Cómo llegar</a></li>
-                <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+        <nav class="nav__list">
+            <ul class="nav__bar">
+                <li><a class="nav__bar-item" href="../index.html">Home</a></li>
+                <li><a class="nav__bar-item" href="./menu.html">Menú</a></li>
+                <li><a class="nav__bar-item" href="./reservas.html">Reservas</a></li>
+                <li><a class="nav__bar-item active" href="./como-llegar.html">Cómo llegar</a></li>
+                <li><a class="nav__bar-item" href="./nosotros.html">Sobre Nosotros</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +38,7 @@
             <a href="https://www.waze.com/es/live-map/directions/co/antioquia/medellin/brije-restaurante?to=place.ChIJge9dpO4pRI4R9q86dgtFE08" target="_blank"><img src="https://play-lh.googleusercontent.com/r7XL36PVNtnidqy6ikRiW1AHEIsjhePrZ8W5M4cNTQy5ViF3-lIDY47hpvxc84kJ7lw" alt="">Waze</a>
         </article>
         <article class="llegar-hours">
-            <h4 class="llegar-tittle">Horas</h4>
+            <h4 class="llegar-title">Horas</h4>
             <p>
                 Lunes- Jueves |12:00 m. - 10:30 p. m.<br>
                 Viernes | 12:00 m.  - 12:00 a. m.<br> 
@@ -42,8 +48,8 @@
        </section>
     </main>
     <footer>
-        <div class="footer-contacto">
-            <h4 class="footer-tittle">Contacto</h4>
+        <div class="footer__container">
+            <h4 class="footer__tittle">Contacto</h4>
             <p>
                 <a href="https://www.google.com/maps/place/Brije+Restaurante/@6.2081171,-75.5692883,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429eea45def81:0x4f13450b763aaff6!8m2!3d6.2081118!4d-75.5670996" target="_blank">Carerra 37 #8A-15 vía Primavera
                 El Poblado, Medellín</a>
@@ -55,13 +61,20 @@
                 <a href="">+57(318) 821-8455</a>
             </h4>
         </div>
-        <div class="footer-logo">
-            <img src="../img/logo.png" alt="">
-            <a class="footer-social" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/001-facebook.png" alt=""> </a>
-            <a class="footer-social" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt=""></a>
+        <div class="footer__social-media footer__container">
+            <img class="footer__logo" src="../img/logo.png" alt="Nuestro logo">
+            <div class="footer__container-logo">
+                <a class="footer__social-logo" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/facebook-logo.png" alt="Logo de Facebook"> </a>
+            </div>
+            <div class="footer__container-logo">
+                <a class="footer__social-logo" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt="Logo de Instagram"></a>
+            </div>
+
+
+            
         </div>
-        <div class="footer-hours">
-            <h4 class="footer-tittle">Horas</h4>
+        <div class="footer__hours footer__container">
+            <h4 class="footer__title">Horas</h4>
             <p>
                 Lunes- Jueves |12:00 m. - 10:30 p. m.<br>
                 Viernes | 12:00 m.  - 12:00 a. m.<br> 

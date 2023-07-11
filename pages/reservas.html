@@ -4,43 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brije-Restaurante</title>
-    <link rel="stylesheet" href="../styles/main.css">
+    <title>Reservas - Brije</title>
+    <meta name="description" content="Reserva una mesa en Brije, un restaurante mexicano en Colombia. Disfruta de nuestra deliciosa comida y vive una experiencia culinaria única.">
+    <meta name="keywords" content="reservas, reservar mesa, restaurante mexicano, Brije, México, Colombia">
+    <meta name="author" content="Brije / Thiago">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div class="nav-div">
-            <a href="../index.html"><img class="main-logo main-logo-fullsize" src="../img/logo-brije.png" alt=""></a> 
-            <a href="./index.html"> <img class="main-logo main-logo-mobile" src="../img/logo.png" alt=""></a>
+    <header class="main-nav">
+        <div class="nav__container">
+           <a href="../index.html"> <img class="nav__logo nav__logo-fullsize" src="../img/logo-brije.png" alt="Logo del restaurante Brije tamaño grande"></a>
+           <a href="../index.html"> <img class="nav__logo nav__logo-mobile" src="../img/logo.png" alt="Logo del restaurante Brije tamaño de celular"></a>
         </div>
-        <nav class="nav-container">
-            <ul class="nav-bar">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./menu.html">Menú</a></li>
-                <li><a href="./reservas.html">Reservas</a></li>
-                <li><a href="./como-llegar.html">Cómo llegar</a></li>
-                <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+        <nav class="nav__list">
+            <ul class="nav__bar">
+                <li><a class="nav__bar-item" href="../index.html">Home</a></li>
+                <li><a class="nav__bar-item" href="./menu.html">Menú</a></li>
+                <li><a class="nav__bar-item active" href="./reservas.html">Reservas</a></li>
+                <li><a class="nav__bar-item" href="./como-llegar.html">Cómo llegar</a></li>
+                <li><a class="nav__bar-item" href="./nosotros.html">Sobre Nosotros</a></li>
             </ul>
         </nav>
     </header>
     <main>
        <section class="main-reservas">
         <article class="main-text-reservas">
-            <h1>Reserva</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis tempora excepturi! Adipisci porro inventore, vitae optio expedita incidunt mollitia doloremque neque? Iure corporis velit recusandae culpa nobis atque a.</p>
-            <img src="https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <div>
+                <h1>Reserva</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis tempora excepturi! Adipisci porro inventore, vitae optio expedita incidunt mollitia doloremque neque? Iure corporis velit recusandae culpa nobis atque a.</p>
+            </div>
+
+            <img src="https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Foto de evento especial en Brije">
         </article>
-        <form action="">
-        <label for="">Reserva:
-            <input type="datetime-local">
-        </label>
-        <button>Reservar</button>
-        </form>
+        <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?3.3.43285" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/static/jotform.forms.js?3.3.43285" type="text/javascript"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+<script src="https://cdn02.jotfor.ms/js/payments/validategateways.js?v=3.3.43285" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/s/umd/a2086600643/for-appointment-field.js?v=3.3.43285" type="text/javascript"></script>
+<script type="text/javascript">	JotForm.newDefaultTheme = false;
+	JotForm.extendsNewTheme = false;
+	JotForm.singleProduct = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+	JotForm.clearFieldOnHide="disable";
+	JotForm.submitError="jumpToFirstError";
+
+	JotForm.init(function(){
+	/*INIT-START*/
+
+    JotForm.calendarMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    JotForm.appointmentCalendarDays = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+    JotForm.calendarOther = "Today";
+    window.initializeAppointment({"text":{"text":"Question","value":"Reserva tu Mesa"},"labelAlign":{"text":"Label Align","value":"Top","dropdown":[["Auto","Auto"],["Left","Left"],["Right","Right"],["Top","Top"]]},"required":{"text":"Required","value":"Yes","dropdown":[["No","No"],["Yes","Yes"]]},"description":{"text":"Hover Text","value":"","textarea":true},"slotDuration":{"text":"Slot Duration","value":"60","dropdown":[[15,"15 min"],[30,"30 min"],[45,"45 min"],[60,"60 min"],["custom","Custom min"]],"hint":"Select how long each slot will be."},"startDate":{"text":"Start Date","value":"2023-07-10"},"endDate":{"text":"End Date","value":"2023-12-31"},"intervals":{"text":"Intervals","value":[{"from":"12:00","to":"21:30","days":["Mon","Tue","Wed","Thu"]}],"hint":"The hours will be applied to the selected days and repeated."},"useBlockout":{"text":"Blockout Custom Dates","value":"No","dropdown":[["No","No"],["Yes","Yes"]],"hint":"Disable certain date(s) in the calendar."},"blockoutDates":{"text":"Blockout dates","value":[{"startDate":"","endDate":""}]},"useLunchBreak":{"text":"Lunch Time","value":"No","dropdown":[["No","No"],["Yes","Yes"]],"hint":"Enable lunchtime in the calendar."},"lunchBreak":{"text":"Lunchtime hours","value":[{"from":"12:00","to":"14:00"}]},"timezone":{"text":"Timezone","value":"Europe/Istanbul (GMT+03:00)"},"timeFormat":{"text":"Time Format","value":"","dropdown":[["24 Hour","24 Hour"],["AM/PM","AM/PM"]],"icon":"images/blank.gif","iconClassName":"toolbar-time_format_24"},"months":{"value":["January","February","March","April","May","June","July","August","September","October","November","December"],"hidden":true},"days":{"value":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"hidden":true},"startWeekOn":{"text":"Start Week On","value":"","dropdown":[["Monday","Monday"],["Sunday","Sunday"]],"toolbar":false},"rollingDays":{"text":"Rolling Days","value":"","toolbar":false},"prevMonthButtonText":{"text":"Previous month","value":""},"nextMonthButtonText":{"text":"Next month","value":""},"prevYearButtonText":{"text":"Previous year","value":""},"nextYearButtonText":{"text":"Next year","value":""},"prevDayButtonText":{"text":"Previous day","value":""},"nextDayButtonText":{"text":"Next day","value":""},"appointmentType":{"hidden":true,"value":"single"},"dateFormat":{"hidden":true,"value":"mm/dd/yyyy"},"maxAttendee":{"hidden":true,"value":"5"},"minScheduleNotice":{"hidden":true,"value":"1"},"name":{"hidden":true,"value":"reservaTu"},"order":{"hidden":true,"value":"1"},"qid":{"toolbar":false,"value":"input_3"},"type":{"hidden":true,"value":"control_appointment"},"id":{"toolbar":false,"value":"3"},"qname":{"toolbar":false,"value":"q3_reservaTu"},"cdnconfig":{"CDN":"https://cdn.jotfor.ms/"},"passive":false,"formProperties":{"products":false,"highlightLine":"Enabled","coupons":false,"useStripeCoupons":false,"taxes":false,"comparePaymentForm":"","paymentListSettings":false,"newPaymentUIForNewCreatedForms":false,"formBackground":"#fff","newAppointment":false},"formID":231905432394658,"isPaymentForm":false,"isOpenedInPortal":false,"isCheckoutForm":false,"isOfflineForms":false,"themeVersion":"v1"});
+        JotForm.alterTexts(undefined);
+	/*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit2","qid":"2","text":"RESERVAR","type":"control_button"},{"name":"reservaTu","qid":"3","text":"Reserva tu Mesa","type":"control_appointment"},{"description":"","name":"numeroDe","qid":"4","text":"Numero de telefono","type":"control_phone"},{"description":"","name":"email","qid":"5","subLabel":"ejemplo@ejemplo.com","text":"Email","type":"control_email"},{"description":"","name":"nombre","qid":"6","text":"Nombre","type":"control_fullname"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit2","qid":"2","text":"RESERVAR","type":"control_button"},{"name":"reservaTu","qid":"3","text":"Reserva tu Mesa","type":"control_appointment"},{"description":"","name":"numeroDe","qid":"4","text":"Numero de telefono","type":"control_phone"},{"description":"","name":"email","qid":"5","subLabel":"ejemplo@ejemplo.com","text":"Email","type":"control_email"},{"description":"","name":"nombre","qid":"6","text":"Nombre","type":"control_fullname"}]);}, 20); 
+</script>
+<link href="https://cdn01.jotfor.ms/static/formCss.css?3.3.43285" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/nova.css?3.3.43285" />
+<style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?v=3.3.43285"/>
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.43285" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/stylebuilder/donationBox.css?v=3.3.43285">
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#555 !important;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+        font-size:14px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+/*__INSPECT_SEPERATOR__*/
+.form-label.form-label-auto {
+        
+      display: block;
+      float: none;
+      text-align: left;
+      width: 100%;
+    
+      }
+    /* Injected CSS Code */
+</style>
+
+<form class="jotform-form" action="https://submit.jotform.com/submit/231905432394658" method="post" name="form_231905432394658" id="231905432394658" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="231905432394658" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li class="form-line jf-required" data-type="control_appointment" id="id_3"><label class="form-label form-label-top" id="label_3" for="input_3"> Reserva tu Mesa<span class="form-required">*</span> </label>
+        <div id="cid_3" class="form-input-wide jf-required">
+          <div id="input_3" class="appointmentFieldWrapper jfQuestion-fields"><input class="appointmentFieldInput" name="q3_reservaTu[implementation]" value="new" id="input_3implementation" aria-hidden="true" /><input class="appointmentFieldInput validate" name="q3_reservaTu[date]" id="input_3_date" data-timeformat="" aria-hidden="true" /><input class="appointmentFieldInput" name="q3_reservaTu[duration]" value="60" id="input_3_duration" aria-hidden="true" /><input class="appointmentFieldInput" name="q3_reservaTu[timezone]" value="Europe/Istanbul (GMT+03:00)" id="input_3_timezone" aria-hidden="true" />
+            <div class="appointmentField"></div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_6"><label class="form-label form-label-top form-label-auto" id="label_6" for="first_6"> Nombre<span class="form-required">*</span> </label>
+        <div id="cid_6" class="form-input-wide jf-required">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_6" name="q6_nombre[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_6 given-name" size="10" value="" data-component="first" aria-labelledby="label_6 sublabel_6_first" required="" /><label class="form-sub-label" for="first_6" id="sublabel_6_first" style="min-height:13px" aria-hidden="false">Nombre</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_6" name="q6_nombre[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_6 family-name" size="15" value="" data-component="last" aria-labelledby="label_6 sublabel_6_last" required="" /><label class="form-sub-label" for="last_6" id="sublabel_6_last" style="min-height:13px" aria-hidden="false">Apellido</label></span></div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_phone" id="id_4" data-compound-hint=","><label class="form-label form-label-top form-label-auto" id="label_4" for="input_4_area"> Número de teléfono<span class="form-required">*</span> </label>
+        <div id="cid_4" class="form-input-wide jf-required">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_4_area" name="q4_numeroDe[area]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_4 tel-area-code" value="" data-component="areaCode" aria-labelledby="label_4 sublabel_4_area" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_4_area" id="sublabel_4_area" style="min-height:13px" aria-hidden="false">Número de WhatsApp</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_4_phone" name="q4_numeroDe[phone]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_4 tel-local" value="" data-component="phone" aria-labelledby="label_4 sublabel_4_phone" required="" /><label class="form-sub-label" for="input_4_phone" id="sublabel_4_phone" style="min-height:13px" aria-hidden="false">Número de teléfono</label></span></div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_email" id="id_5"><label class="form-label form-label-top form-label-auto" id="label_5" for="input_5"> Email<span class="form-required">*</span> </label>
+        <div id="cid_5" class="form-input-wide jf-required"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_5" name="q5_email" class="form-textbox validate[required, Email]" data-defaultvalue="" size="30" value="" data-component="email" aria-labelledby="label_5 sublabel_input_5" required="" /><label class="form-sub-label" for="input_5" id="sublabel_input_5" style="min-height:13px" aria-hidden="false">ejemplo@ejemplo.com</label></span> </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_2">
+        <div id="cid_2" class="form-input-wide">
+          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">RESERVAR</button></div>
+        </div>
+      </li>
+      <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
+    </ul>
+  </div>
+<input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="231905432394658" />
+  <script type="text/javascript">
+    var all_spc = document.querySelectorAll("form[id='231905432394658'] .si" + "mple" + "_spc");
+    for (var i = 0; i < all_spc.length; i++)
+    {
+      all_spc[i].value = "231905432394658-231905432394658";
+    }
+  </script>
+  <div class="formFooter-heightMask"></div>
+
+    <div class="formFooter-wrapper formFooter-leftSide">
+      <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=231905432394658&utm_content=jotform_logo&utm_campaign=powered_by_jotform_le" target="_blank" class="formFooter-logoLink">
+
+      </a>
+    </div>
+
+  </div>
+</form>
        </section>
     </main>
     <footer>
-        <div class="footer-contacto">
-            <h4 class="footer-tittle">Contacto</h4>
+        <div class="footer__container">
+            <h4 class="footer__tittle">Contacto</h4>
             <p>
                 <a href="https://www.google.com/maps/place/Brije+Restaurante/@6.2081171,-75.5692883,17z/data=!3m1!4b1!4m5!3m4!1s0x8e4429eea45def81:0x4f13450b763aaff6!8m2!3d6.2081118!4d-75.5670996" target="_blank">Carerra 37 #8A-15 vía Primavera
                 El Poblado, Medellín</a>
@@ -52,13 +170,20 @@
                 <a href="">+57(318) 821-8455</a>
             </h4>
         </div>
-        <div class="footer-logo">
-            <img src="../img/logo.png" alt="">
-            <a class="footer-social" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/001-facebook.png" alt=""> </a>
-            <a class="footer-social" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt=""></a>           
+        <div class="footer__social-media footer__container">
+            <img class="footer__logo" src="../img/logo.png" alt="Nuestro logo">
+            <div class="footer__container-logo">
+                <a class="footer__social-logo" href="https://www.facebook.com/brijerestaurante/" target="_blank"> <img class="facebook-logo" src="../assets/facebook-logo.png" alt="Logo de Facebook"> </a>
+            </div>
+            <div class="footer__container-logo">
+                <a class="footer__social-logo" href="https://www.instagram.com/brije.restaurante/" target="_blank"><img class="instagram-logo" src="../assets/002-instagram.png" alt="Logo de Instagram"></a>
+            </div>
+
+
+            
         </div>
-        <div class="footer-hours">
-            <h4 class="footer-tittle">Horas</h4>
+        <div class="footer__hours footer__container">
+            <h4 class="footer__title">Horas</h4>
             <p>
                 Lunes- Jueves |12:00 m. - 10:30 p. m.<br>
                 Viernes | 12:00 m.  - 12:00 a. m.<br> 

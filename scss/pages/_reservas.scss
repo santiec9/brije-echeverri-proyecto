@@ -1,0 +1,44 @@
+.main-reservas{
+    width: 90%;
+    margin: 0 auto;
+    .main-text-reservas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h1{
+            margin: 20px 0px 10px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.8rem;
+            margin: 10px;
+        }
+        img{
+            width: 80vw;
+            margin: 15px;
+            
+        }
+    }
+}
+@media (min-width: 620px){
+    .main-reservas {
+        width: 90%;
+        .main-text-reservas{
+            margin: 30px 10px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-evenly;
+            img{
+                width: 40vw;
+            }
+        }
+
+    }
+
+
+}
