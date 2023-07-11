@@ -212,6 +212,11 @@ footer .footer__social-media .footer__container-logo {
 .main-llegar h1 {
   margin: 10px;
 }
+.main-llegar p {
+  width: 80%;
+  margin: 10px 20px;
+  text-align: center;
+}
 .main-llegar iframe {
   padding: 20px;
 }
