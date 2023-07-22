@@ -7,6 +7,7 @@
 body {
   font-family: "Quicksand", sans-serif;
   background-color: #E8E2E2;
+  overflow-x: hidden;
 }
 
 ul, li, a {
@@ -148,6 +149,42 @@ footer .footer__social-media .footer__container-logo {
     justify-content: space-around;
   }
 }
+.card-img-top {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.card {
+  height: 35rem;
+}
+
+.col {
+  margin: 10px auto;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #af8855;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+.card-text span {
+  font-weight: 700;
+  color: #af8855;
+}
+
 .main__container {
   display: flex;
   flex-direction: column;

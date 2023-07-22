@@ -49,7 +49,7 @@ Para ver el sitio web de Brije en funcionamiento localmente, sigue estos pasos:
 
 ## Uso
 
-Visita [Sitio web de Brije](url_del_sitio_web) para ver el sitio web en vivo y explorar sus distintas secciones.
+Visita [Sitio web de Brije](https://santiec9.github.io/brije-echeverri-proyecto/index.html) para ver el sitio web en vivo y explorar sus distintas secciones.
 
 ## Contribución
 
