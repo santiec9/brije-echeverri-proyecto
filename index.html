@@ -8,18 +8,20 @@
     <meta name="description" content="Bienvenidos a Brije, un auténtico pedacito de México en Colombia. Descubre la auténtica cocina mexicana y disfruta de una experiencia culinaria excepcional.">
     <meta name="keywords" content="restaurante mexicano, comida mexicana, Brije, México, Colombia">
     <meta name="author" content="Brije / Thiago">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/647fb163-6eba-45c6-a49e-214731a3ce9d/favicon.ico?format=100w">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-
-
     <header class="main-nav">
         <div class="nav__container">
-           <a href="./index.html" class="enlace"> <img class="nav__logo nav__logo-fullsize" src="./img/logo-brije.png" alt="Logo del restaurante Brije tamaño grande"></a>
+            
+           <a href="./index.html"> <img class="nav__logo nav__logo-fullsize" src="./img/logo-brije.png" alt="Logo del restaurante Brije tamaño grande"></a>
            <a href="./index.html"> <img class="nav__logo nav__logo-mobile" src="./img/logo.png" alt="Logo del restaurante Brije tamaño de celular"></a>
         </div>
         <nav class="nav__list">
@@ -31,13 +33,35 @@
                 <li><a class="nav__bar-item" href="./pages/nosotros.html">Sobre Nosotros</a></li>
             </ul>
         </nav>
+        <div class="responsive-menu">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class=" p-4">
+                  <span class="text-muted">
+                    <ul class="nav__bar">
+                        <li><a class="nav__bar-item active" href="./index.html">Home</a></li>
+                        <li><a class="nav__bar-item" href="./pages/menu.html">Menú</a></li>
+                        <li><a class="nav__bar-item" href="./pages/reservas.html">Reservas</a></li>
+                        <li><a class="nav__bar-item" href="./pages/como-llegar.html">Cómo llegar</a></li>
+                        <li><a class="nav__bar-item" href="./pages/nosotros.html">Sobre Nosotros</a></li>
+                    </ul>
+                  </span>
+                </div>
+              </div>
+              <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
+        </div>
     </header>
     <main>
        <section class="main__container">
         <article class="carta main__page">  
             <a href="./pages/menu.html"> <img src="https://images.squarespace-cdn.com/content/v1/61d44e49206e76620fbbe67f/1648604661484-HLRMZSLRAO47ECJ4ORCR/Brije_103.jpg" alt="Foto de nuestro menú"></a>
             <div class="main__card">
-                <h2 class="main__page_title">Nuestro Menu</h2>
+                <h1 class="main__page_title">Nuestro Menu</h1>
                 <p>Descubre nuestros platos tradicionales, desde los intensos y picantes chiles hasta las ricas y suculentas carnes marinadas, cada bocado te transportará a las vibrantes calles de México.  ¡Ven y disfruta de la verdadera cocina mexicana en cada platillo que ofrecemos en nuestro menú! </p>
             </div>
             
@@ -106,5 +130,6 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

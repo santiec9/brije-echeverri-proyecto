@@ -1,5 +1,5 @@
 .main-reservas{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     .main-text-reservas{
         display: flex;
@@ -22,6 +22,21 @@
             margin: 15px;
             
         }
+    }
+    .btn-primary{
+        margin: 10px auto;
+        padding: 8px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        background-color: $color-green;
+        color: #af8855;
+        border: none;
+        &:hover{
+            background-color: #af8855;
+            color: #fff;
+            transition: 0.5s;
+        }
+       
     }
 }
 @media (min-width: 620px){

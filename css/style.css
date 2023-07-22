@@ -18,6 +18,14 @@ ul, li, a {
   display: none;
 }
 
+.nav__list {
+  display: none;
+}
+
+.responsive-menu {
+  display: flex;
+}
+
 .main-nav {
   width: 100%;
   height: auto;
@@ -29,19 +37,11 @@ ul, li, a {
 .main-nav .nav__container {
   align-self: center;
 }
-.main-nav .nav__bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.main-nav .nav__bar .nav__bar-item {
+.main-nav .nav__bar-item {
   color: #af8855;
   font-size: 1.4rem;
 }
-.main-nav .nav__bar .nav__bar-item:hover {
-  color: white;
-}
-.main-nav .nav__bar .active {
+.main-nav .active {
   color: white;
 }
 
@@ -51,6 +51,27 @@ ul, li, a {
     width: 400px;
   }
   .nav__logo-mobile {
+    display: none;
+  }
+  .nav__list {
+    display: inline-block;
+  }
+  .nav__list .nav__bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .nav__list .nav__bar .nav__bar-item {
+    color: #af8855;
+    font-size: 1.4rem;
+  }
+  .nav__list .nav__bar .nav__bar-item:hover {
+    color: white;
+  }
+  .nav__list .nav__bar .active {
+    color: white;
+  }
+  .responsive-menu {
     display: none;
   }
   .main-nav {
@@ -283,6 +304,16 @@ footer .footer__social-media .footer__container-logo {
   transition: 0.5s;
 }
 
+.menu-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #af8855;
+}
+
 @media (min-width: 620px) {
   .main-menu {
     width: 100%;
@@ -330,18 +361,19 @@ footer .footer__social-media .footer__container-logo {
   text-align: center;
   font-size: 2rem;
 }
-.main-nosotros .form-nosotros {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+.main-nosotros .btn-primary {
   margin: 10px auto;
-  padding: 15px;
+  padding: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: hsl(176, 83.33%, 7.06%);
+  color: #af8855;
+  border: none;
 }
-.main-nosotros .form-nosotros input {
-  margin: 10px;
-}
-.main-nosotros .form-nosotros input:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+.main-nosotros .btn-primary:hover {
+  background-color: #af8855;
+  color: #fff;
+  transition: 0.5s;
 }
 
 @media (min-width: 768px) {
@@ -360,12 +392,9 @@ footer .footer__social-media .footer__container-logo {
   .main-nosotros .text-nosotros .text__order {
     order: 2;
   }
-  .main-nosotros .form-nosotros {
-    width: 50%;
-  }
 }
 .main-reservas {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .main-reservas .main-text-reservas {
@@ -388,6 +417,20 @@ footer .footer__social-media .footer__container-logo {
 .main-reservas .main-text-reservas img {
   width: 80vw;
   margin: 15px;
+}
+.main-reservas .btn-primary {
+  margin: 10px auto;
+  padding: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: hsl(176, 83.33%, 7.06%);
+  color: #af8855;
+  border: none;
+}
+.main-reservas .btn-primary:hover {
+  background-color: #af8855;
+  color: #fff;
+  transition: 0.5s;
 }
 
 @media (min-width: 620px) {
