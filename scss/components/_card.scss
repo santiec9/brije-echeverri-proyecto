@@ -14,17 +14,25 @@
     margin: 20px auto;
     padding: 10px;
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: bolder;
     color: #af8855;
+    text-decoration: underline;
 }
 h2{
     font-weight: 700;
     text-align: center;
 }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .card-text{
     text-align: center;
     span{
-        font-weight: 700;
+        font-weight: bold;
         color: #af8855;
+
     }
 }

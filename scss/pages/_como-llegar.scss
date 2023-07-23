@@ -6,6 +6,9 @@
     align-items: center;
     h1{
         margin: 10px;
+        color: #af8855;
+        font-size: bold;
+        text-decoration: underline;
     }
     p{
         width: 80%;
@@ -30,15 +33,21 @@
     }
     .llegar-title{
         font-size: 1.6rem;
-        color: black;
+        color:#af8855;
         margin: 10px;
         text-align: center;
         margin-top: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+        
     }
     .llegar-hours p{
         color: black;
         line-height: 2rem;
         text-align: center;
-        margin: 10px;
+        margin: 10px auto;
     }
+}
+.llegar-hours{
+    width: 90vw;
 }
