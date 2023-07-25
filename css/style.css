@@ -107,21 +107,24 @@ footer .footer__container, footer .footer__container .footer__hours {
   margin: 10px;
   color: #af8855;
   text-align: center;
-  font-weight: 600;
+  font-weight: bold;
 }
 footer .footer__container a {
   color: #fff;
-  line-height: 1.6rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
   text-align: center;
 }
 footer .footer__hours p {
   color: #fff;
-  line-height: 1.6rem;
+  line-height: 1.2rem;
   text-align: center;
   line-height: 1.5rem;
+  font-weight: 300;
 }
 footer .footer__title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 5px 0 5px;
   padding: 4px;
 }
@@ -210,7 +213,7 @@ h2 {
 .main__container .main__page img {
   width: 80vw;
   min-height: 20rem;
-  margin-top: 20px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,12 +229,33 @@ h2 {
 .main__container .main__page .main__page_title {
   color: #af8855;
   font-weight: 600;
-  margin: 10px;
   padding: 5px;
-  text-decoration: underline;
 }
 .main__container .main__page .main__page_title, .main__container .main__page .main__page_title .main__page p {
   text-align: center;
+}
+.main__container .main__page .main__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__container .main__page .main__card .link_btn {
+  width: 60vw;
+  max-width: 250px;
+  color: #af8855;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: hsl(176, 83.33%, 7.06%);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+.main__container .main__page .main__card .link_btn:hover {
+  background-color: #af8855;
+  color: #fff;
+  transition: 0.5s;
 }
 
 @media (min-width: 620px) {
@@ -288,7 +312,6 @@ h2 {
   margin: 10px;
   color: #af8855;
   font-size: bold;
-  text-decoration: underline;
 }
 .main-llegar p {
   width: 80%;
@@ -317,7 +340,6 @@ h2 {
   text-align: center;
   margin-top: 20px;
   font-weight: bold;
-  text-decoration: underline;
 }
 .main-llegar .llegar-hours p {
   color: black;
@@ -345,7 +367,7 @@ h2 {
   position: relative;
 }
 .main-menu .menu img {
-  width: 50vw;
+  width: 65vw;
   height: 300px;
   object-fit: cover;
   border-radius: 5px;
@@ -375,7 +397,6 @@ h2 {
   font-size: 2.2rem;
   font-weight: 700;
   color: #af8855;
-  text-decoration: underline;
 }
 
 @media (min-width: 620px) {
@@ -425,7 +446,6 @@ h2 {
   text-align: center;
   font-size: 2rem;
   color: #af8855;
-  text-decoration: underline;
 }
 .main-nosotros .btn-primary {
   margin: 10px auto;
@@ -475,7 +495,6 @@ h2 {
   font-size: 2rem;
   font-weight: 700;
   color: #af8855;
-  text-decoration: underline;
 }
 .main-reservas .main-text-reservas p {
   font-size: 1rem;

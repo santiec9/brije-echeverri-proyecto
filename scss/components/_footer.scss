@@ -12,23 +12,26 @@ footer{
             margin: 10px;
             color: #af8855;
             text-align: center;
-            font-weight: 600;  
+            font-weight: bold;  
         }
 
         a{
             color: #fff;
-            line-height: 1.6rem;
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.2rem;
             text-align: center;         
         } 
     }
     .footer__hours p{
         color: #fff;
-        line-height: 1.6rem;
+        line-height: 1.2rem;
         text-align: center;
         line-height: 1.5rem;
+        font-weight: 300;
     }
     .footer__title{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin: 5px 0 5px;
         padding: 4px;
     }
